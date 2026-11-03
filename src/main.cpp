@@ -1,5 +1,6 @@
 ﻿#include "raylib.h"
 #include "game.hpp"
+#include "laser.hpp"
 
 //colores
 Color grey = {29, 29, 27, 255};
@@ -18,9 +19,11 @@ int main() {
     while (!WindowShouldClose()) {
 
         game.HandleInput();
+        game.Update();
         BeginDrawing();
         ClearBackground(grey);
         game.Draw();
+
         EndDrawing();
     }
 
