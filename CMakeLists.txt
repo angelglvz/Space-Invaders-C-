@@ -23,6 +23,7 @@ add_executable(SpaceInvaders
     src/block.cpp
     src/obstacle.cpp
     src/alien.cpp
+    src/misteryShip.cpp
 )
 target_link_libraries(SpaceInvaders PRIVATE raylib)
 
