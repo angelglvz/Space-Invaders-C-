@@ -20,6 +20,8 @@ add_executable(SpaceInvaders
     src/spaceship.cpp
     src/game.cpp
     src/laser.cpp
+    src/block.cpp
+    src/obstacle.cpp
 )
 target_link_libraries(SpaceInvaders PRIVATE raylib)
 
